@@ -5,6 +5,9 @@ include: "/views/sales_temp.view"
 explore: distomatosis_black_pearl {
   view_name:"black_pearl"
   from: black_pearl
+  label: "Distomatosis Usage - Black Pearl"
+  view_label: "Black Pearl"
+  description: "Information about black pearl"
   extends: [black_pearl]
 
   join: sales_temp {
